@@ -14,13 +14,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-  <sectio>
+  <section>
       <p> Hey guys , I am RycharDson , i'm like this course.
         Thanks for enrolling in this course!</p>
 
 
 
-  </sectio>
+  </section>
 
 
 
