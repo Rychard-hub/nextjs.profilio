@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  istDir: 'build',
+  distDir: 'build',
   distDir: '.next',
 }
 
