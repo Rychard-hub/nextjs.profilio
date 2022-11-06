@@ -16,6 +16,8 @@ export default function Home() {
 
       <main className={styles.main}>
   <section>
+
+    <Picture />
       <p> Hey guys , I am RycharDson , i'm like this course.
         Thanks for enrolling in this course!</p>
 
