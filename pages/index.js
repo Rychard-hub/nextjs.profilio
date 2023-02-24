@@ -2,8 +2,16 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
-import Picture from './posts/picture';
 
+import ProfilItem from '../components/profilio/ProfilItem'
+import ButtonItem from '../components/ButtonItem'
+
+const DUMMY_IMAGE = [
+  {
+    title: 'Ferst Second',
+    image: '/faces.jpg',
+  },
+]
 
 export default function Home() {
   return (
@@ -15,21 +23,23 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-  <section>
-
-    <Picture />
-      <p> Hey guys , I am RycharDson , i'm like this course.
-        Thanks for enrolling in this course!</p>
-
-
-
-  </section>
-
-
+  
+  <section className={styles.code}>
+          <ProfilItem meetups={DUMMY_IMAGE} />
+        </section>
+    
+  <p>
+          {''}
+          Hey guys , I am RycharDson , i'm like this course. Thanks for
+          enrolling in this course!
+        </p>
 
         <h1 className={styles.title}>
-           Come Bact to <Link href="/posts/first-post">Home!</Link>
-        </h1> 
+          Go <Link href="/posts/first-post">second page</Link>
+        </h1>
+        <ButtonItem meetups={DUMMY_IMAGE} />
+
+
       </main>
 
       <footer className={styles.footer}>
