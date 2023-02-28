@@ -1,4 +1,4 @@
-import ChangeTitle from './Button'
+import ChangeTitle from './Button';
 
 function ButtonItem(props) {
   return (

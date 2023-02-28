@@ -1,5 +1,5 @@
-import classes from './MeetupImidz.module.css'
-import MeetupImidz from './MeetupImidz'
+import classes from './MeetupImidz.module.css';
+import MeetupImidz from './MeetupImidz';
 
 function ProfilItem(props) {
   return (
