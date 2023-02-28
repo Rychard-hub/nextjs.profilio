@@ -28,18 +28,15 @@ export default function Home() {
           <ProfilItem meetups={DUMMY_IMAGE} />
         </section>
     
-  <p>
-          {''}
-          Hey guys , I am RycharDson , i'm like this course. Thanks for
-          enrolling in this course!
-        </p>
-
+      <section>
+        <h2> My Projects</h2>
+        <ButtonItem meetups={DUMMY_IMAGE} />
+       <footer className={styles.footer}>
         <h1 className={styles.title}>
           Go <Link href="/posts/first-post">second page</Link>
         </h1>
-        <ButtonItem meetups={DUMMY_IMAGE} />
-
-
+        </footer>
+        </section>
       </main>
 
       <footer className={styles.footer}>
