@@ -1,0 +1,28 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 40;
+}
+.image {
+  width: 80%;
+  height: 80rem;
+  overflow: hidden;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 50px;
+}
+
+.image img {
+  width: 60%;
+  margin: 40px;
+  justify-content: left;
+  padding: 0;
+  object-fit: cover;
+  border-radius: 120px;
+}
+.text {
+  color: wheat;
+}
+.sleept {
+  color: antiquewhite;
+  overflow: hidden;
+}
