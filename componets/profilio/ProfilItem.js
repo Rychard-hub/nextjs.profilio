@@ -5,7 +5,7 @@ function ProfilItem(props) {
   return (
     <ul className={classes.list}>
       {props.meetups.map((meetup) => (
-        <MeetupImidz title={meetup.title} image={meetup.image} />
+        <MeetupImidz title={meetup.title} image={meetup.image} key={meetup.id} />
       ))}
     </ul>
   )
