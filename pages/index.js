@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import ProfilItem from '../components/profilio/ProfilItem';
+import ButtonItem from '../components/ButtonItem';
 
 
 
@@ -15,23 +17,23 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-  <section>
-
-   
-      <p> Hey guys , I am RycharDson , i'm like this course.
-        Thanks for enrolling in this course!</p>
-
-
-
+  <section className={styles.code}>
+          <ProfilItem meetups={DUMMY_IMAGE} />
+          <p>{''}</p>
   </section>
-
-
-
-        <h1 className={styles.title}>
-           Come Bact to <Link href="/posts/first-post">Home!</Link>
-        </h1> 
+ <section className={styles.right}>
+          <h3>My Projects</h3>
+          <ButtonItem meetups={DUMMY_IMAGE} />
+          {''}
+          <br></br>
+          <footer className={styles.footer}>
+            <h1 className={styles.title}>
+              Go to<Link href="/posts/first-post">second page</Link>
+            </h1>
+          </footer>
+        </section>
+        
       </main>
-
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
