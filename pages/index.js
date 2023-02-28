@@ -8,7 +8,7 @@ import ButtonItem from '../components/ButtonItem'
 
 const DUMMY_IMAGE = [
   {
-    id: 'e1';
+    id: 'e1',
     title: 'Ferst Second',
     image: '/faces.jpg',
   },
