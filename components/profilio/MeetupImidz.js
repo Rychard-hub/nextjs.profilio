@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './MeetupImidz.module.css';
-import Card from './ui/Card';
+import Card from '../ui/Card';
 
 function MeetupImidz(props) {
   
