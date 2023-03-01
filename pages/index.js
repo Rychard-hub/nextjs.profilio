@@ -9,7 +9,7 @@ const DUMMY_IMAGE = [
   {
     id: 'e1',
     title: 'Ferst Second',
-    image: '/faces.jpg',
+    image: '/images/faces.jpg',
   },
 ]
 
