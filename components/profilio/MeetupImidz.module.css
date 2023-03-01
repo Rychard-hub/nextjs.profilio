@@ -3,7 +3,7 @@
   margin: 0;
   padding: 40;
 }
-.image {
+.box{
   width: 80%;
   height: 80rem;
   overflow: hidden;
@@ -11,7 +11,7 @@
   border-top-left-radius: 50px;
 }
 
-.image Image {
+.image  {
   width: 60%;
   margin: 40px;
   justify-content: left;
