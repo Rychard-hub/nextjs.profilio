@@ -10,7 +10,7 @@ function MeetupImidz(props) {
       <Card>
         <div>
           <div className={classes.image}>
-            <img src={props.image} alt={props.title} />
+            <Image src={props.image} alt={props.title} />
             <h2 className={classes.text}>Ricardas Zukaitis</h2>
             <h3>{props.title}</h3>
           </div>
