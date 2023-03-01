@@ -29,7 +29,7 @@ export default function Home() {
   </section>
  <section className={styles.right}>
           <h3>My Projects</h3>
-          
+        
           {''}
           <br></br>
           <footer className={styles.footer}>
