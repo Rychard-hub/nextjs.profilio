@@ -3,7 +3,7 @@ import classes from './MeetupImidz.module.css';
 import Card from './ui/Card';
 
 function MeetupImidz(props) {
-  console.log('MeetupImidz evaluated by React')
+  
 
   return (
     <li>
