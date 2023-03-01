@@ -5,7 +5,13 @@ import Link from 'next/link';
 import ProfilItem from '../components/profilio/ProfilItem';
 import ButtonItem from '../components/ButtonItem';
 
-
+const DUMMY_IMAGE = [
+  {
+    id: 'e1',
+    title: 'Ferst Second',
+    image: '/faces.jpg',
+  },
+]
 
 export default function Home() {
   return (
