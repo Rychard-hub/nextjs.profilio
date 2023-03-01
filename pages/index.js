@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import ProfilItem from '../components/profilio/ProfilItem';
-import ButtonItem from '../components/ButtonItem';
+
 
 const DUMMY_IMAGE = [
   {
@@ -29,7 +29,7 @@ export default function Home() {
   </section>
  <section className={styles.right}>
           <h3>My Projects</h3>
-          <ButtonItem meetups={DUMMY_IMAGE} />
+          
           {''}
           <br></br>
           <footer className={styles.footer}>
