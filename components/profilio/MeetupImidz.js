@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import classes from './MeetupImidz.module.css';
 import Card from '../ui/Card';
 
