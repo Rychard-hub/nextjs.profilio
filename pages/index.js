@@ -30,6 +30,10 @@ export default function Home() {
   </section>
  <section className={styles.right}>
           <h3>My Projects</h3>
+          <ul>
+            <li>Weekends</li>
+            <li>Meetups</li>
+          </ul>
         
           {''}
           <br></br>
