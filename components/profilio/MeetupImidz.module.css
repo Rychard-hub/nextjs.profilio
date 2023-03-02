@@ -4,19 +4,18 @@
   padding: 40;
 }
 .box{
-  width:80%;
- height: 40rem;
-  overflow: hidden;
-  border-top-right-radius: 80px;
-  border-top-left-radius: 50px;
+  width:100%;
+  margin: 0.1px; 
+  overflow: hidden; 
 }
 
 .image  {
-  margin: 0.1px;
+  margin: 2.5px;
   justify-content: center;
   padding: 4rem 12rem;
   object-fit: cover;
   border-radius: 120px;
+  border: 1.5px solid rgb(4, 65, 93);
 }
 .text {
   color: wheat;
