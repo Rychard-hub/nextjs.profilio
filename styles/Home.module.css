@@ -2,14 +2,10 @@
   padding: 0 2rem;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 0rem 0;
+.centry {
   flex: 1;
   display: flex;
-  flex-direction: line;
-  justify-content: center;
-  align-items: center;
+  flex-direction: line; 
 }
 .picture {
   border-radius: 25px;

@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico.jpg" />
       </Head>
 
-     <div>
+     <div className={styles.centry}>
   <section className={styles.code}>
           <ProfilItem meetups={DUMMY_IMAGE} />
           <p>{''}</p>
