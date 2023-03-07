@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico.jpg" />
       </Head>
 
-     
+     <div>
   <section className={styles.code}>
           <ProfilItem meetups={DUMMY_IMAGE} />
           <p>{''}</p>
@@ -43,7 +43,7 @@ export default function Home() {
             </h1>
           </footer>
         </section>
-        
+        </div>
     
       <footer className={styles.footer}>
         <a
