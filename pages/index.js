@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Header from '../components/Header/Header'
+
 import Link from 'next/link';
 import ProfilItem from '../components/profilio/ProfilItem';
 
@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
 
      <div className={styles.centry}>
-           <Header />
+          
   <section className={styles.code}>
           <ProfilItem meetups={DUMMY_IMAGE} />
           <p>{''}</p>

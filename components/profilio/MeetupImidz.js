@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import classes from './MeetupImidz.module.css';
+import Header from '../Header/Header';
 import Card from '../ui/Card';
 
 function MeetupImidz(props) {
@@ -8,6 +9,7 @@ function MeetupImidz(props) {
 
   return (
     <li className={classes.list}>
+      <Header />
       <Card> 
           <div className={classes.box}>
             <Image className={classes.image} width='180px' height='160px' src={props.image} alt={props.title} />
