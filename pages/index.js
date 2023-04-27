@@ -11,6 +11,7 @@ const DUMMY_IMAGE = [
     id: 'e1',
     title: 'Ferst Second',
     image: '/images/faces.jpg',
+    text: ' I design, code and grow internet software. I’m a Digital Product Designer  who enjoys turning problems and opportunities into simple interfaces through design and code.'
   },
 ]
 

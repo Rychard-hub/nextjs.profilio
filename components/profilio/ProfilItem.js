@@ -8,6 +8,7 @@ function ProfilItem(props) {
         <MeetupImidz
           title={meetup.title}
           image={meetup.image}
+          text={meetup.text}
           key={meetup.id}
         />
       ))}
