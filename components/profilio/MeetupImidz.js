@@ -16,12 +16,7 @@ function MeetupImidz(props) {
             <h1>{props.text} </h1>
           </div>   
       </Card>
-     <div>
-        <p className={classes.sleept}>
-          {''}
-          Hey guys , I am RycharDson , i'm like this  Nextjs course.
-        </p>
-      </div>
+    
     </li>
   )
 }

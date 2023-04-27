@@ -1,0 +1,15 @@
+.main {
+  margin: 0.1rem auto;
+  padding: 0.1rem;
+  width: 90%;
+  height:80px;
+  max-width: 70rem;
+
+}
+
+.sleept {
+    color: antiquewhite;
+    overflow: hidden;
+    font-family:  Segoe UI, Oxygen,
+    Cantarell, Fira Sans, Helvetica Neue, sans-serif;
+  }
