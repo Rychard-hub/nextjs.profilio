@@ -41,7 +41,7 @@ export default function Home() {
           <br></br>
           <footer className={styles.footer}>
             <h1 className={styles.title}>
-              Go to<Link href="/posts/first-post">second page</Link>
+              Go to<Link href="/exercisesId">second page</Link>
             </h1>
           </footer>
         </section>
